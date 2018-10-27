@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	  <link rel="stylesheet" href="./dist/css/swiper.min.css">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.box{
+			max-width: 640px;
+			min-width: 320px;
+			height: 3000px;
+			margin:100px auto;
+		}
+		.header{
+			
+			width: 640px;
+			height: 45px;
+			border:1px solid #ccc;
+			position: relative;
+		}
+		.left{
+			float:left;
+			border:none;
+			color:#D00397;
+			margin-left: 10px;
+			width: 65px;
+			height:45px;
+			line-height: 45px;
+		}
+		.gaol{
+			color:#D00397;
+		}
+		.center{
+			margin-left:280px;
+			line-height: 45px;
+			font-size: 16px;
+			color:black;
+		}
+		.right {
+
+			position: absolute;
+			right:20px;
+			top:10px;
+
+		}
+		.right img {
+			width: 30px;
+			height: 30px;
+			line-height: 45px;
+		}
+   .swiper-container {
+            width: 640px;
+            height: 300px;
+        }  
+        .swiper-slide{
+            width: 640px;
+            height: 300px;
+        }
+        .swiper-slide img{
+            width: 100%;
+            height: 100%;
+        }
+        .nav_jingdian{
+        	width:100%;
+        	height: 50px;
+			
+        }
+        .jingdian {
+        	width: 201px;
+        	height: 110px;
+        	float:left;
+        	margin-left: 12px;
+        	margin-top: 8px;
+        }
+        .jingdian img {
+        	width: 200px;
+        	height: 110px;
+        }
+		.emm{
+			width: 640px;
+			padding-left:15px;
+			padding-top:10px;
+
+
+		}
+        .emm .shange img {
+
+        	float: left;
+        	width: 24%;
+        	border:1px solid #ccc;
+
+        }
+        .san{
+        	width: 640px;
+        	float:left;
+        }
+        .san .zuo{
+        	width: 320px;
+        	height: 240px;
+        	float: left;
+        }
+        .youd img{
+        	width: 320px;
+        	height:120px;
+        	float: left;
+        }
+        .youx img{
+        	width: 320px;
+        	height:120px;
+        }
+        .remen{
+        	width: 640px;
+        	height: 160px;
+        	float: left;
+        }
+        .re{
+        	height: 24px;
+        	
+        }
+        .huodong{
+        	height: 124px;
+        	
+        }
+        .footer{
+        	margin-top: 400px;
+        	width: 100%;
+        	float: left;
+        }
+        .week {
+        	height: 30px;
+
+        }
+        .weekz {
+        	width: 318px;
+        	float: left;
+        	line-height: 30px;
+        	text-align:center; 
+        	font-size: 16px;
+        	border:1px solid #ccc;
+        }
+        .weeky{
+        	width: 318px;
+        	float: left;
+        	line-height: 30px;
+        	text-align:center; 
+        	font-size: 16px;
+        	border:1px solid #ccc;
+        }
+        .look {
+        	float: left;
+        	width: 100%;
+        	height: 30px;
+        	text-align: center;
+        	line-height: 30px;
+        	font-size: 16px;
+        }
+        .dibu {
+        	float: left;
+        	width: 100%;
+        	height: 30px;
+        	background-color:#D00397;
+
+        }
+        .zhuce{
+        	width: 20%;
+        	float: left;
+        	margin-top: 8px;
+        	color:white;
+        	font-size: 16px;
+        }
+        
+        .dengl{
+        	width:10%;
+        	float: left;
+        	margin-top: 8px;
+        	color: white;
+        	font-size: 16px;
+        }
+        .top {
+        	display: block;
+        	float: right;
+        	font-size: 18px;
+        	line-height: 30px;
+        	color: white;
+        	margin-right: 10px;
+        }
+	</style>
+</head>
+<body>
+<div class="box">
+	<div class="header">
+		<select class="left">
+			<option id="gaol">上海</option>
+			<option >北京</option>
+			<option >武汉</option>
+			<option >杭州</option>
+		</select>
+		
+		<div class="center">驴妈妈旅游网</div>
+		<div class="right">
+			<a href="javascript:;">
+				<img src="./images/icon/my.png" alt="">
+			</a>
+		</div>
+	</div>
+	 <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/img/banner1.jpg"/>
+            </div>
+            <div class="swiper-slide"><img src="./images/img/banner2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/img/banner3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/img/banner4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/img/banner5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/img/banner6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/img/banner7.jpg" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar"></div>
+         <!-- Add Pagination -->
+    	<div class="swiper-pagination"></div>
+    
+   		</div>
+   		     <div class="nav_jingdian">
+   			<div class="jingdian"><img src="./images/icon/nav1.png" alt=""></div>
+   			<div class="jingdian"><img src="./images/icon/nav2.png" alt=""></div>
+   			<div class="jingdian"><img src="./images/icon/nav3.png" alt=""></div>
+   			<div class="jingdian"><img src="./images/icon/nav4.png" alt=""></div>
+   			<div class="jingdian"><img src="./images/icon/nav5.png" alt=""></div>
+   			<div class="jingdian"><img src="./images/icon/nav6.png" alt=""></div>
+   		</div>
+
+		
+    
+    	<div class="emm">
+    	    <div class="shange"><img src="./images/icon/j1.png" alt=""></div>
+    	    <div class="shange"><img src="./images/icon/j2.png" alt=""></div>
+    	    <div class="shange"><img src="./images/icon/j3.png" alt=""></div>
+    	    <div class="shange"><img src="./images/icon/j4.png" alt=""></div>
+    	    <div class="shange"><img src="./images/icon/j5.png" alt=""></div>
+    	    <div class="shange"><img src="./images/icon/j6.png" alt=""></div>
+    	    <div class="shange"><img src="./images/icon/j7.png" alt=""></div>
+    	    <div class="shange"><img src="./images/icon/j8.png" alt=""></div>
+    	</div>
+		
+		<div class="san">
+			<div class="zuo"><img src="./images/img/t1.jpg" alt=""></div>
+			<div class="youd"><img src="./images/img/t2.jpg" alt=""></div>
+			<div class="youx"><img src="./images/img/t3.jpg" alt=""></div>
+		</div>
+
+		<div class="remen">
+			<div class="re">热门活动</div>
+			<div class="huodong"><img src="./images/img/r1.jpg" alt=""></div>
+			<div class="huodong"><img src="./images/img/r2.jpg" alt=""></div>
+			<div class="huodong"><img src="./images/img/r3.jpg" alt=""></div>
+			<div class="huodong"><img src="./images/img/r4.jpg" alt=""></div>
+
+		</div>
+
+		<div class="footer">
+			<div class="week">
+				<div class="weekz">度周末</div>
+				<div class="weeky">度长假</div>
+			</div>
+			<div class="weekTu"><img src="./images/img/zm1.jpg" alt=""><p>emmmmmm</p></div>
+			<div class="weekTu"><img src="./images/img/zm2.jpg" alt=""><p>emmmmmm</p></div>
+			<div class="weekTu"><img src="./images/img/zm3.jpg" alt=""><p>emmmmmm</p></div>
+			<div class="weekTu"><img src="./images/img/zm4.jpg" alt=""><p>emmmmmm</p></div>
+			<div class="weekTu"><img src="./images/img/zm5.jpg" alt=""><p>emmmmmm</p></div>
+			
+		</div>
+
+		<div class="look">查看更多…</div>
+
+		<div class="dibu">
+			<div class="zhuce">免费注册</div>
+			<div class="dengl">登录</div>
+			<a href="javascript:;" class="top">Top</a>
+		</div>
+ </div>
+   
+
+    
+    
+ 
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./dist/js/swiper.min.js"></script>
+<script src="jquery.min.js"></script>
+    <script>
+    	window.onload = function() {
+      var mySwiper = new Swiper ('.swiper-container', {
+        // 轮播图的方向，也可以是vertical方向
+        direction:'horizontal',
+        
+        //播放速度
+        loop: true,
+
+        // 自动播放时间
+        autoplay:1000,
+
+        // 播放的速度
+        speed:2000,
+        
+        // 如果需要分页器，即下面的小圆点
+        pagination: '.swiper-pagination',
+        
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+　　　　　
+
+　　　　　　// 这样，即使我们滑动之后， 定时器也不会被清除
+　　　　  autoplayDisableOnInteraction : false,
+        
+        // 如果需要滚动条
+        scrollbar: '.swiper-scrollbar',
+      });
+    }        
+    </script>
+    
+</body>
+</html>
